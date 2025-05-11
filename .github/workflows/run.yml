@@ -2,7 +2,7 @@ name: SSH Login
 
 on:
   schedule:
-   - cron: '25 14 15,28 * *'  # 每月15，28号的 UTC 15:00（北京时间 22:25）运行
+   - cron: '0 1 8,20 * *' # 每月的 8号、20号 UTC时间 01:00 运行
   workflow_dispatch:
 
 jobs:
